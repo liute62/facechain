@@ -1578,4 +1578,4 @@ with gr.Blocks(css='style.css') as demo:
 
 if __name__ == "__main__":
     set_spawn_method()
-    demo.queue(status_update_rate=1).launch(share=True)
+    demo.queue(status_update_rate=1).launch(share=True, server_port=6008)
